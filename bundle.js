@@ -30,6 +30,76 @@ eval("\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n
 
 /***/ }),
 
+/***/ "./src/images/Brion.jpeg":
+/*!*******************************!*\
+  !*** ./src/images/Brion.jpeg ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"img/2e172b1568330393f412fc50cabdc3c9.jpeg\");\n\n//# sourceURL=webpack://ari/./src/images/Brion.jpeg?");
+
+/***/ }),
+
+/***/ "./src/images/EditorialGallery/EmmaBoyd-FirstImage.jpg":
+/*!*************************************************************!*\
+  !*** ./src/images/EditorialGallery/EmmaBoyd-FirstImage.jpg ***!
+  \*************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"img/55fa73fc3a81ac37bdc086df73333eb7.jpg\");\n\n//# sourceURL=webpack://ari/./src/images/EditorialGallery/EmmaBoyd-FirstImage.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/EditorialGallery/EmmaBoyd-FourthImage.jpg":
+/*!**************************************************************!*\
+  !*** ./src/images/EditorialGallery/EmmaBoyd-FourthImage.jpg ***!
+  \**************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"img/ae8dfb53cfb5b085fe1251cca5edd0e7.jpg\");\n\n//# sourceURL=webpack://ari/./src/images/EditorialGallery/EmmaBoyd-FourthImage.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/EditorialGallery/EmmaBoyd-SecondImage.jpg":
+/*!**************************************************************!*\
+  !*** ./src/images/EditorialGallery/EmmaBoyd-SecondImage.jpg ***!
+  \**************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"img/9605bc53571450cb9446405c134d945b.jpg\");\n\n//# sourceURL=webpack://ari/./src/images/EditorialGallery/EmmaBoyd-SecondImage.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/EditorialGallery/EmmaBoyd-ThirdImage.jpg":
+/*!*************************************************************!*\
+  !*** ./src/images/EditorialGallery/EmmaBoyd-ThirdImage.jpg ***!
+  \*************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"img/44040cbd3282ca2c060d5d9ed44bad14.jpg\");\n\n//# sourceURL=webpack://ari/./src/images/EditorialGallery/EmmaBoyd-ThirdImage.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/editorial.jpeg":
+/*!***********************************!*\
+  !*** ./src/images/editorial.jpeg ***!
+  \***********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"img/9985edefc7b1b6ec2ae52884c3186668.jpeg\");\n\n//# sourceURL=webpack://ari/./src/images/editorial.jpeg?");
+
+/***/ }),
+
+/***/ "./src/images/portrait.jpeg":
+/*!**********************************!*\
+  !*** ./src/images/portrait.jpeg ***!
+  \**********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"img/69b4864ae23daea7a8e57dcb27bca12c.jpeg\");\n\n//# sourceURL=webpack://ari/./src/images/portrait.jpeg?");
+
+/***/ }),
+
 /***/ "./src/style.css":
 /*!***********************!*\
   !*** ./src/style.css ***!
@@ -50,76 +120,6 @@ eval("\n\nvar isOldIE = function isOldIE() {\n  var memo;\n  return function mem
 
 /***/ }),
 
-/***/ "./src/images/Brion.jpeg":
-/*!*******************************!*\
-  !*** ./src/images/Brion.jpeg ***!
-  \*******************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__.p + \"f8040fc33b29e252b70b.jpeg\";\n\n//# sourceURL=webpack://ari/./src/images/Brion.jpeg?");
-
-/***/ }),
-
-/***/ "./src/images/EditorialGallery/EmmaBoyd-FirstImage.jpg":
-/*!*************************************************************!*\
-  !*** ./src/images/EditorialGallery/EmmaBoyd-FirstImage.jpg ***!
-  \*************************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__.p + \"c1d0165f9c05c72d8fb5.jpg\";\n\n//# sourceURL=webpack://ari/./src/images/EditorialGallery/EmmaBoyd-FirstImage.jpg?");
-
-/***/ }),
-
-/***/ "./src/images/EditorialGallery/EmmaBoyd-FourthImage.jpg":
-/*!**************************************************************!*\
-  !*** ./src/images/EditorialGallery/EmmaBoyd-FourthImage.jpg ***!
-  \**************************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__.p + \"b365aad5f08e32d04ec8.jpg\";\n\n//# sourceURL=webpack://ari/./src/images/EditorialGallery/EmmaBoyd-FourthImage.jpg?");
-
-/***/ }),
-
-/***/ "./src/images/EditorialGallery/EmmaBoyd-SecondImage.jpg":
-/*!**************************************************************!*\
-  !*** ./src/images/EditorialGallery/EmmaBoyd-SecondImage.jpg ***!
-  \**************************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__.p + \"41cb3e7801678b88d6de.jpg\";\n\n//# sourceURL=webpack://ari/./src/images/EditorialGallery/EmmaBoyd-SecondImage.jpg?");
-
-/***/ }),
-
-/***/ "./src/images/EditorialGallery/EmmaBoyd-ThirdImage.jpg":
-/*!*************************************************************!*\
-  !*** ./src/images/EditorialGallery/EmmaBoyd-ThirdImage.jpg ***!
-  \*************************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__.p + \"335a61e59a5abae06138.jpg\";\n\n//# sourceURL=webpack://ari/./src/images/EditorialGallery/EmmaBoyd-ThirdImage.jpg?");
-
-/***/ }),
-
-/***/ "./src/images/editorial.jpeg":
-/*!***********************************!*\
-  !*** ./src/images/editorial.jpeg ***!
-  \***********************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__.p + \"faa1344576ecb6385408.jpeg\";\n\n//# sourceURL=webpack://ari/./src/images/editorial.jpeg?");
-
-/***/ }),
-
-/***/ "./src/images/portrait.jpeg":
-/*!**********************************!*\
-  !*** ./src/images/portrait.jpeg ***!
-  \**********************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__.p + \"0e31584bbc32e351609b.jpeg\";\n\n//# sourceURL=webpack://ari/./src/images/portrait.jpeg?");
-
-/***/ }),
-
 /***/ "./src/about.js":
 /*!**********************!*\
   !*** ./src/about.js ***!
@@ -136,7 +136,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _images_EditorialGallery_EmmaBoyd_FirstImage_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./images/EditorialGallery/EmmaBoyd-FirstImage.jpg */ \"./src/images/EditorialGallery/EmmaBoyd-FirstImage.jpg\");\n/* harmony import */ var _images_EditorialGallery_EmmaBoyd_SecondImage_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./images/EditorialGallery/EmmaBoyd-SecondImage.jpg */ \"./src/images/EditorialGallery/EmmaBoyd-SecondImage.jpg\");\n/* harmony import */ var _images_EditorialGallery_EmmaBoyd_ThirdImage_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./images/EditorialGallery/EmmaBoyd-ThirdImage.jpg */ \"./src/images/EditorialGallery/EmmaBoyd-ThirdImage.jpg\");\n/* harmony import */ var _images_EditorialGallery_EmmaBoyd_FourthImage_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./images/EditorialGallery/EmmaBoyd-FourthImage.jpg */ \"./src/images/EditorialGallery/EmmaBoyd-FourthImage.jpg\");\n\n\n\n\n\n\nconst createTitle = (titleText) => {\n    const anchor = document.createElement('a');\n    const title = document.createElement('h1');\n\n    anchor.href = 'index.html'\n    anchor.classList.add('titleLink');\n\n    title.classList.add('gallery-title');\n    title.innerHTML = titleText;\n\n\n    anchor.appendChild(title);\n\n    return anchor;\n}\n\nconst createDiv = (divClass) => {\n    const div = document.createElement('div');\n    div.classList.add(`${divClass}`);\n\n    return div;\n}\n\n\n\nconst createFigure = (source, caption, idNumber ) => {\n    const figure = document.createElement('figure');\n    figure.classList.add('gallery-figure');\n    figure.id = 'gallery-figure';\n    figure.dataset.idNumber = idNumber;\n\n    const img = document.createElement('img');\n    img.classList.add('gallery-img');\n    img.src = source;\n\n    const figCaption = document.createElement('figcaption');\n    figCaption.classList.add('gallery-caption');\n    figCaption.innerHTML = caption;\n\n    figure.appendChild(img);\n    figure.appendChild(figCaption);\n\n    return figure;\n\n};\n\n\nconst galleryImg = (img, caption, idNumber) =>{\n\n    return {img, caption, idNumber}\n\n}\n\nconst GalleryArray = () => {\n    \n    const galleryArray_ = [];\n\n    function populateArray(...images) {\n        images.forEach(image => galleryArray_.push(image));\n    }\n\n    const getArray = () => {\n        return galleryArray_\n    }\n\n    return {populateArray, getArray};\n\n}\n\nconst GalleryDom = () => {\n    const emmaFirst_ = galleryImg(_images_EditorialGallery_EmmaBoyd_FirstImage_jpg__WEBPACK_IMPORTED_MODULE_0__, 'Emma Kate Boyd', '0');\n    const emmaSecond_ = galleryImg(_images_EditorialGallery_EmmaBoyd_SecondImage_jpg__WEBPACK_IMPORTED_MODULE_1__, 'Emma Kate Boyd', '1');\n    const emmaThird_ = galleryImg(_images_EditorialGallery_EmmaBoyd_ThirdImage_jpg__WEBPACK_IMPORTED_MODULE_2__, 'Emma Kate Boyd', '2');\n    const emmaFourth_ = galleryImg(_images_EditorialGallery_EmmaBoyd_FourthImage_jpg__WEBPACK_IMPORTED_MODULE_3__, 'Emma Kate Boyd', '3');\n    \n    const galleryDom = GalleryArray();\n    galleryDom.populateArray(emmaFirst_, emmaSecond_, emmaThird_, emmaFourth_);\n\n    const galleryArray = galleryDom.getArray();\n    \n\n    console.table(galleryArray)\n\n    function getGalleryDom(){\n        return galleryArray;\n    }\n\n    return {getGalleryDom};\n}\n\n\n\n\n\nconst addEventListeners = () => {\n    const leftArrow = document.getElementById('arrow-left');\n    const rightArrow = document.getElementById('arrow-right');\n\n    leftArrow.addEventListener('click', backArrow);\n    rightArrow.addEventListener('click', forwardArrow);\n}   \n\nfunction backArrow() {\n    const gallery = GalleryDom().getGalleryDom();\n    const currentFig = getCurrentGalleryFigure();\n    const currentFigID = currentFig.dataset.idNumber;\n    const newFigID = parseInt(currentFigID) - 1;\n    const figureWrapper = document.getElementById('figureWrapper');\n\n    if(currentFigID == 0){\n        const lastImgId = gallery.length - 1;\n        const newImg = createFigure(gallery[lastImgId].img, gallery[lastImgId].caption, gallery[lastImgId].idNumber);\n        currentFig.remove();\n        figureWrapper.appendChild(newImg);\n\n    }\n\n    else{\n        const newImg = createFigure(gallery[newFigID].img, gallery[newFigID].caption, gallery[newFigID].idNumber);\n        currentFig.remove();\n        figureWrapper.appendChild(newImg);\n\n    }\n    \n\n}\n\nfunction forwardArrow(){\n    const gallery = GalleryDom().getGalleryDom();\n    const currentFig = getCurrentGalleryFigure();\n    const currentFigID = parseInt(currentFig.dataset.idNumber);\n    const newFigID = currentFigID + 1;\n    const figureWrapper = document.getElementById('figureWrapper');\n\n\n    console.log(currentFigID);\n    console.log(gallery.length);\n    \n    \n    if(currentFigID == gallery.length - 1){\n        const newImg = createFigure(gallery[0].img, gallery[0].caption, gallery[0].idNumber);\n        currentFig.remove();\n        figureWrapper.appendChild(newImg);\n\n    }\n\n    else{\n        const newImg = createFigure(gallery[newFigID].img, gallery[newFigID].caption, gallery[newFigID].idNumber);\n        currentFig.remove();\n        figureWrapper.appendChild(newImg);\n\n    }\n\n    \n    \n\n\n\n}   \n\nconst getCurrentGalleryFigure = () => {\n    const figure = document.getElementById('gallery-figure');\n    return figure;\n}\n\nconst loadGallery = () => {\n\n    \n    const content = document.getElementById('content');\n    const title = createTitle('ARIEL SADOK');\n\n    const galleryWrapper = createDiv('galleryWrapper');\n    const arrowLeft = createDiv('arrow-left');\n    arrowLeft.id= 'arrow-left';\n    const arrowRight = createDiv('arrow-right');\n    arrowRight.id='arrow-right';\n\n    const gallery = GalleryDom().getGalleryDom();\n\n    const figureWrapper = createDiv('figureWrapper');\n    figureWrapper.id = 'figureWrapper';\n    figureWrapper.classList.add('gallery-figure')\n    const figure = createFigure(gallery[0].img, gallery[0].caption, gallery[0].idNumber);\n    \n    content.appendChild(title);\n    content.appendChild(galleryWrapper);\n    galleryWrapper.appendChild(arrowLeft);\n    galleryWrapper.appendChild(figureWrapper);\n    figureWrapper.appendChild(figure);\n    galleryWrapper.appendChild(arrowRight);\n\n    addEventListeners();\n\n    \n}\n\n\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (loadGallery);\n\n\n\n\n\n//# sourceURL=webpack://ari/./src/gallery.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _images_EditorialGallery_EmmaBoyd_FirstImage_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./images/EditorialGallery/EmmaBoyd-FirstImage.jpg */ \"./src/images/EditorialGallery/EmmaBoyd-FirstImage.jpg\");\n/* harmony import */ var _images_EditorialGallery_EmmaBoyd_SecondImage_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./images/EditorialGallery/EmmaBoyd-SecondImage.jpg */ \"./src/images/EditorialGallery/EmmaBoyd-SecondImage.jpg\");\n/* harmony import */ var _images_EditorialGallery_EmmaBoyd_ThirdImage_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./images/EditorialGallery/EmmaBoyd-ThirdImage.jpg */ \"./src/images/EditorialGallery/EmmaBoyd-ThirdImage.jpg\");\n/* harmony import */ var _images_EditorialGallery_EmmaBoyd_FourthImage_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./images/EditorialGallery/EmmaBoyd-FourthImage.jpg */ \"./src/images/EditorialGallery/EmmaBoyd-FourthImage.jpg\");\n\n\n\n\n\n\nconst createTitle = (titleText) => {\n    const anchor = document.createElement('a');\n    const title = document.createElement('h1');\n\n    anchor.href = 'index.html'\n    anchor.classList.add('titleLink');\n\n    title.classList.add('gallery-title');\n    title.innerHTML = titleText;\n\n\n    anchor.appendChild(title);\n\n    return anchor;\n}\n\nconst createDiv = (divClass) => {\n    const div = document.createElement('div');\n    div.classList.add(`${divClass}`);\n\n    return div;\n}\n\n\n\nconst createFigure = (source, caption, idNumber ) => {\n    const figure = document.createElement('figure');\n    figure.classList.add('gallery-figure');\n    figure.id = 'gallery-figure';\n    figure.dataset.idNumber = idNumber;\n\n    const img = document.createElement('img');\n    img.classList.add('gallery-img');\n    img.src = source;\n\n    const figCaption = document.createElement('figcaption');\n    figCaption.classList.add('gallery-caption');\n    figCaption.innerHTML = caption;\n\n    figure.appendChild(img);\n    figure.appendChild(figCaption);\n\n    return figure;\n\n};\n\n\nconst galleryImg = (img, caption, idNumber) =>{\n\n    return {img, caption, idNumber}\n\n}\n\nconst GalleryArray = () => {\n    \n    const galleryArray_ = [];\n\n    function populateArray(...images) {\n        images.forEach(image => galleryArray_.push(image));\n    }\n\n    const getArray = () => {\n        return galleryArray_\n    }\n\n    return {populateArray, getArray};\n\n}\n\nconst GalleryDom = () => {\n    const emmaFirst_ = galleryImg(_images_EditorialGallery_EmmaBoyd_FirstImage_jpg__WEBPACK_IMPORTED_MODULE_0__.default, 'Emma Kate Boyd', '0');\n    const emmaSecond_ = galleryImg(_images_EditorialGallery_EmmaBoyd_SecondImage_jpg__WEBPACK_IMPORTED_MODULE_1__.default, 'Emma Kate Boyd', '1');\n    const emmaThird_ = galleryImg(_images_EditorialGallery_EmmaBoyd_ThirdImage_jpg__WEBPACK_IMPORTED_MODULE_2__.default, 'Emma Kate Boyd', '2');\n    const emmaFourth_ = galleryImg(_images_EditorialGallery_EmmaBoyd_FourthImage_jpg__WEBPACK_IMPORTED_MODULE_3__.default, 'Emma Kate Boyd', '3');\n    \n    const galleryDom = GalleryArray();\n    galleryDom.populateArray(emmaFirst_, emmaSecond_, emmaThird_, emmaFourth_);\n\n    const galleryArray = galleryDom.getArray();\n    \n\n    console.table(galleryArray)\n\n    function getGalleryDom(){\n        return galleryArray;\n    }\n\n    return {getGalleryDom};\n}\n\n\n\n\n\nconst addEventListeners = () => {\n    const leftArrow = document.getElementById('arrow-left');\n    const rightArrow = document.getElementById('arrow-right');\n\n    leftArrow.addEventListener('click', backArrow);\n    rightArrow.addEventListener('click', forwardArrow);\n}   \n\nfunction backArrow() {\n    const gallery = GalleryDom().getGalleryDom();\n    const currentFig = getCurrentGalleryFigure();\n    const currentFigID = currentFig.dataset.idNumber;\n    const newFigID = parseInt(currentFigID) - 1;\n    const figureWrapper = document.getElementById('figureWrapper');\n\n    if(currentFigID == 0){\n        const lastImgId = gallery.length - 1;\n        const newImg = createFigure(gallery[lastImgId].img, gallery[lastImgId].caption, gallery[lastImgId].idNumber);\n        currentFig.remove();\n        figureWrapper.appendChild(newImg);\n\n    }\n\n    else{\n        const newImg = createFigure(gallery[newFigID].img, gallery[newFigID].caption, gallery[newFigID].idNumber);\n        currentFig.remove();\n        figureWrapper.appendChild(newImg);\n\n    }\n    \n\n}\n\nfunction forwardArrow(){\n    const gallery = GalleryDom().getGalleryDom();\n    const currentFig = getCurrentGalleryFigure();\n    const currentFigID = parseInt(currentFig.dataset.idNumber);\n    const newFigID = currentFigID + 1;\n    const figureWrapper = document.getElementById('figureWrapper');\n\n\n    console.log(currentFigID);\n    console.log(gallery.length);\n    \n    \n    if(currentFigID == gallery.length - 1){\n        const newImg = createFigure(gallery[0].img, gallery[0].caption, gallery[0].idNumber);\n        currentFig.remove();\n        figureWrapper.appendChild(newImg);\n\n    }\n\n    else{\n        const newImg = createFigure(gallery[newFigID].img, gallery[newFigID].caption, gallery[newFigID].idNumber);\n        currentFig.remove();\n        figureWrapper.appendChild(newImg);\n\n    }\n\n    \n    \n\n\n\n}   \n\nconst getCurrentGalleryFigure = () => {\n    const figure = document.getElementById('gallery-figure');\n    return figure;\n}\n\nconst loadGallery = () => {\n\n    \n    const content = document.getElementById('content');\n    const title = createTitle('ARIEL SADOK');\n\n    const galleryWrapper = createDiv('galleryWrapper');\n    const arrowLeft = createDiv('arrow-left');\n    arrowLeft.id= 'arrow-left';\n    const arrowRight = createDiv('arrow-right');\n    arrowRight.id='arrow-right';\n\n    const gallery = GalleryDom().getGalleryDom();\n\n    const figureWrapper = createDiv('figureWrapper');\n    figureWrapper.id = 'figureWrapper';\n    figureWrapper.classList.add('gallery-figure')\n    const figure = createFigure(gallery[0].img, gallery[0].caption, gallery[0].idNumber);\n    \n    content.appendChild(title);\n    content.appendChild(galleryWrapper);\n    galleryWrapper.appendChild(arrowLeft);\n    galleryWrapper.appendChild(figureWrapper);\n    figureWrapper.appendChild(figure);\n    galleryWrapper.appendChild(arrowRight);\n\n    addEventListeners();\n\n    \n}\n\n\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (loadGallery);\n\n\n\n\n\n//# sourceURL=webpack://ari/./src/gallery.js?");
 
 /***/ }),
 
@@ -146,7 +146,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _images_Brion_jpeg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./images/Brion.jpeg */ \"./src/images/Brion.jpeg\");\n\n\n\nconst createSplashWrapper = () => {\n    const splashWrapper = document.createElement('div');\n    splashWrapper.id = 'splashWrapper';\n\n    return splashWrapper;\n}\n\nconst createSplashImg = () => {\n    const splashImg = document.createElement('img');\n    splashImg.id = 'splashImg';\n    splashImg.src = _images_Brion_jpeg__WEBPACK_IMPORTED_MODULE_0__;\n    \n    return splashImg;\n}\n\nconst createTitle = (titleText) => {\n    const title = document.createElement('h1');\n    title.classList.add('title');\n    title.innerHTML = titleText;\n\n    return title;\n}\n\nconst createLinkWrapper = () => {\n    const linkWrapper = document.createElement('div');\n    linkWrapper.id = 'linkWrapper';\n\n    return linkWrapper;\n}\n\nconst createLink = (linkText) => {\n    const link = document.createElement('a');\n    link.classList.add('link');\n    link.innerHTML = `${linkText}`;\n\n    return link;\n}\n\nconst pushSplash = () => {\n    const splashWrapper = createSplashWrapper();\n    const splashImg = createSplashImg();\n\n    splashWrapper.appendChild(splashImg);\n    splashWrapper.appendChild(createTitle('ARIEL SADOK'));\n\n\n    return splashWrapper;\n}\n\nconst pushLink = () => {\n    const linkWrapper =  createLinkWrapper();\n    \n    const portfolios = linkWrapper.appendChild(createLink('Portfolios'));\n    portfolios.id = 'portfolio';\n    portfolios.href = '#thumbWrapper';\n    const bio = linkWrapper.appendChild(createLink('About / Contact'));\n    bio.id = 'bio';\n    bio.href = 'about.html'\n\n\n    return linkWrapper;\n}\n\nconst loadHomePage = () => {\n    const content = document.getElementById('content');\n    content.appendChild(pushSplash());\n    content.appendChild(pushLink());\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (loadHomePage);\n\n//# sourceURL=webpack://ari/./src/home.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _images_Brion_jpeg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./images/Brion.jpeg */ \"./src/images/Brion.jpeg\");\n\n\n\nconst createSplashWrapper = () => {\n    const splashWrapper = document.createElement('div');\n    splashWrapper.id = 'splashWrapper';\n\n    return splashWrapper;\n}\n\nconst createSplashImg = () => {\n    const splashImg = document.createElement('img');\n    splashImg.id = 'splashImg';\n    splashImg.src = _images_Brion_jpeg__WEBPACK_IMPORTED_MODULE_0__.default;\n    \n    return splashImg;\n}\n\nconst createTitle = (titleText) => {\n    const title = document.createElement('h1');\n    title.classList.add('title');\n    title.innerHTML = titleText;\n\n    return title;\n}\n\nconst createLinkWrapper = () => {\n    const linkWrapper = document.createElement('div');\n    linkWrapper.id = 'linkWrapper';\n\n    return linkWrapper;\n}\n\nconst createLink = (linkText) => {\n    const link = document.createElement('a');\n    link.classList.add('link');\n    link.innerHTML = `${linkText}`;\n\n    return link;\n}\n\nconst pushSplash = () => {\n    const splashWrapper = createSplashWrapper();\n    const splashImg = createSplashImg();\n\n    splashWrapper.appendChild(splashImg);\n    splashWrapper.appendChild(createTitle('ARIEL SADOK'));\n\n\n    return splashWrapper;\n}\n\nconst pushLink = () => {\n    const linkWrapper =  createLinkWrapper();\n    \n    const portfolios = linkWrapper.appendChild(createLink('Portfolios'));\n    portfolios.id = 'portfolio';\n    portfolios.href = '#thumbWrapper';\n    const bio = linkWrapper.appendChild(createLink('About / Contact'));\n    bio.id = 'bio';\n    bio.href = 'about.html'\n\n\n    return linkWrapper;\n}\n\nconst loadHomePage = () => {\n    const content = document.getElementById('content');\n    content.appendChild(pushSplash());\n    content.appendChild(pushLink());\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (loadHomePage);\n\n//# sourceURL=webpack://ari/./src/home.js?");
 
 /***/ }),
 
@@ -156,7 +156,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _images_portrait_jpeg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./images/portrait.jpeg */ \"./src/images/portrait.jpeg\");\n/* harmony import */ var _images_editorial_jpeg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./images/editorial.jpeg */ \"./src/images/editorial.jpeg\");\n\n\n\n\nconst addEventListeners = () => {\n    const links = document.querySelectorAll('.link');\n    links.forEach(link => {\n        link.addEventListener('click', parseLink);\n\n    })\n\n}\n\nfunction parseLink() {\n    \n    switch(this.id){\n        case 'portfolio':\n            pushPortfolioDom();\n            break;\n        case 'bio':\n            bio();\n            break;\n            \n    }\n}\n\nconst createWrapper = () => {\n    const thumbWrapper = document.createElement('div');\n    thumbWrapper.classList.add('thumbWrapper');\n    thumbWrapper.id = 'thumbWrapper'\n\n    return thumbWrapper;\n\n}\n\nconst createPortfolioLink = (thumbnail, caption, link) => {\n    const anchor = document.createElement('a');\n    const figure = document.createElement('figure');\n    const portraitThumb = document.createElement('img');\n    const figCaption = document.createElement('figcaption');\n\n    anchor.href=`${link}`;\n\n    portraitThumb.src = thumbnail;\n    portraitThumb.classList.add('thumbnail')\n\n    figCaption.innerHTML = `${caption}`;\n    figCaption.classList.add('thumbCaption');\n\n    anchor.appendChild(figure);\n    figure.appendChild(portraitThumb);\n    figure.appendChild(figCaption);\n\n    return anchor;\n   \n}\n\n\nconst pushPortfolioDom = () =>{\n\n    if(document.body.contains(document.getElementById('thumbWrapper'))){\n        return;\n    }\n\n    else{\n        const content = document.getElementById('content');\n        const thumbWrapper = content.appendChild(createWrapper());\n        thumbWrapper.appendChild(createPortfolioLink(_images_portrait_jpeg__WEBPACK_IMPORTED_MODULE_0__, 'Portrait', ''));\n        thumbWrapper.appendChild(createPortfolioLink(_images_editorial_jpeg__WEBPACK_IMPORTED_MODULE_1__, 'Editorial', 'gallery.html'));\n\n    }\n    \n}\n\n\n\n\n\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (addEventListeners);\n\n//# sourceURL=webpack://ari/./src/homepageLinks.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _images_portrait_jpeg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./images/portrait.jpeg */ \"./src/images/portrait.jpeg\");\n/* harmony import */ var _images_editorial_jpeg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./images/editorial.jpeg */ \"./src/images/editorial.jpeg\");\n\n\n\n\nconst addEventListeners = () => {\n    const links = document.querySelectorAll('.link');\n    links.forEach(link => {\n        link.addEventListener('click', parseLink);\n\n    })\n\n}\n\nfunction parseLink() {\n    \n    switch(this.id){\n        case 'portfolio':\n            pushPortfolioDom();\n            break;\n        case 'bio':\n            bio();\n            break;\n            \n    }\n}\n\nconst createWrapper = () => {\n    const thumbWrapper = document.createElement('div');\n    thumbWrapper.classList.add('thumbWrapper');\n    thumbWrapper.id = 'thumbWrapper'\n\n    return thumbWrapper;\n\n}\n\nconst createPortfolioLink = (thumbnail, caption, link) => {\n    const anchor = document.createElement('a');\n    const figure = document.createElement('figure');\n    const portraitThumb = document.createElement('img');\n    const figCaption = document.createElement('figcaption');\n\n    anchor.href=`${link}`;\n\n    portraitThumb.src = thumbnail;\n    portraitThumb.classList.add('thumbnail')\n\n    figCaption.innerHTML = `${caption}`;\n    figCaption.classList.add('thumbCaption');\n\n    anchor.appendChild(figure);\n    figure.appendChild(portraitThumb);\n    figure.appendChild(figCaption);\n\n    return anchor;\n   \n}\n\n\nconst pushPortfolioDom = () =>{\n\n    if(document.body.contains(document.getElementById('thumbWrapper'))){\n        return;\n    }\n\n    else{\n        const content = document.getElementById('content');\n        const thumbWrapper = content.appendChild(createWrapper());\n        thumbWrapper.appendChild(createPortfolioLink(_images_portrait_jpeg__WEBPACK_IMPORTED_MODULE_0__.default, 'Portrait', ''));\n        thumbWrapper.appendChild(createPortfolioLink(_images_editorial_jpeg__WEBPACK_IMPORTED_MODULE_1__.default, 'Editorial', 'gallery.html'));\n\n    }\n    \n}\n\n\n\n\n\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (addEventListeners);\n\n//# sourceURL=webpack://ari/./src/homepageLinks.js?");
 
 /***/ }),
 
