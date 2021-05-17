@@ -17,7 +17,7 @@ const path = require('path');
         use: ['style-loader', 'css-loader'],
       },
       {
-        test: /\.(png|jpg|gif|jpeg)$/,
+        test: /\.(png|jpg|gif|jpeg)$/i,
         use: {
           loader: "file-loader",
           options: {
