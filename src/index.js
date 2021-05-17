@@ -11,22 +11,30 @@ function getUrl(){
     return window.location.href;
 }
 switch (getUrl()) {
+
+    case 'https://onholidayeb.github.io/Ari-Site/':
+        init();
+        loadHomePage();
+        addEventListeners();
+        break;
+
     case 'https://onholidayeb.github.io/Ari-Site/index.html': 
         init();
         loadHomePage();
         addEventListeners();
         break;
 
-    case 'file:///Users/ericbouthiller/Projects/Ari_Site/dist/editorial.html':
+   /* case 'file:///Users/ericbouthiller/Projects/Ari_Site/dist/editorial.html':
         init();
         //loadEditorial();
-        //loadGallery();
-    case 'https://onholidayeb.github.io/Ari-Site/index.html#thumbWrapper':
+        //loadGallery();*/
+    
+        case 'https://onholidayeb.github.io/Ari-Site/index.html#thumbWrapper':
         init();
         loadHomePage();
         addEventListeners();
         break;
-
+    
     case 'https://onholidayeb.github.io/Ari-Site/gallery.html':
         init();
         loadGallery();
