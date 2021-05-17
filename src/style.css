@@ -194,6 +194,11 @@ a:hover, a:visited, a:link, a:active
         margin: 6vw auto 0 auto;
     }    
 
+    #splashImg{
+        width: 90vw;
+        height: auto;
+    }
+
     #linkWrapper{
         display: flex;
         flex-direction: row;
@@ -233,6 +238,8 @@ a:hover, a:visited, a:link, a:active
         height: 0;
         border-top: 10px solid transparent;
         border-bottom: 10px solid transparent;
+        border-left: none;
+        margin-left: 0px;
     
     }
 
@@ -241,6 +248,8 @@ a:hover, a:visited, a:link, a:active
         height: 0;
         border-top: 10px solid transparent;
         border-bottom: 10px solid transparent;
+        border-right: none;
+        margin-right: 0px;
     }
 
 
