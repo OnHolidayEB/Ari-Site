@@ -23,13 +23,13 @@
 #splashWrapper{
     display: flex;
     flex-direction: column;
-    width: 30vw;
+    width: 60vw;
     margin: 6vw auto 0 auto;
-
+    align-items: center;
 }
 
-#splash{
-    width: 30vw;
+#splashImg{
+    width: 40vw;
     height: auto;
 }
 
