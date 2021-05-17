@@ -11,7 +11,7 @@ function getUrl(){
     return window.location.href;
 }
 switch (getUrl()) {
-    case 'https://onholidayeb.github.io/Ari-Site/': 
+    case 'https://onholidayeb.github.io/Ari-Site/index.html': 
         init();
         loadHomePage();
         addEventListeners();
@@ -21,7 +21,7 @@ switch (getUrl()) {
         init();
         //loadEditorial();
         //loadGallery();
-    case 'https://onholidayeb.github.io/Ari-Site/index.html':
+    case 'https://onholidayeb.github.io/Ari-Site/index.html#thumbWrapper':
         init();
         loadHomePage();
         addEventListeners();
