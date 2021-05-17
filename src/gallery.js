@@ -149,6 +149,7 @@ function forwardArrow(){
         const newImg = createFigure(gallery[0].img, gallery[0].caption, gallery[0].idNumber);
         currentFig.remove();
         figureWrapper.appendChild(newImg);
+        newImg.addEventListener('click', forwardArrow);
 
     }
 
@@ -156,6 +157,7 @@ function forwardArrow(){
         const newImg = createFigure(gallery[newFigID].img, gallery[newFigID].caption, gallery[newFigID].idNumber);
         currentFig.remove();
         figureWrapper.appendChild(newImg);
+        newImg.addEventListener('click', forwardArrow);
 
     }
 
