@@ -141,10 +141,6 @@ function forwardArrow(){
     const figureWrapper = document.getElementById('figureWrapper');
 
 
-    console.log(currentFigID);
-    console.log(gallery.length);
-    
-    
     if(currentFigID == gallery.length - 1){
         const newImg = createFigure(gallery[0].img, gallery[0].caption, gallery[0].idNumber);
         currentFig.remove();
@@ -156,8 +152,12 @@ function forwardArrow(){
     else{
         const newImg = createFigure(gallery[newFigID].img, gallery[newFigID].caption, gallery[newFigID].idNumber);
         currentFig.remove();
+        
         figureWrapper.appendChild(newImg);
         newImg.addEventListener('click', forwardArrow);
+        if(document.getElementById('click-caption') != null){
+            removeClickCaption();
+        }
 
     }
 
@@ -167,6 +167,11 @@ function forwardArrow(){
 
 
 }   
+
+const removeClickCaption = () => {
+    const clickCaption = document.getElementById('click-caption');
+    clickCaption.remove();
+}
 
 const getCurrentGalleryFigure = () => {
     const figure = document.getElementById('gallery-figure');
@@ -189,8 +194,11 @@ const loadGallery = () => {
 
     const figureWrapper = createDiv('figureWrapper');
     figureWrapper.id = 'figureWrapper';
-    figureWrapper.classList.add('gallery-figure')
     const figure = createFigure(gallery[0].img, gallery[0].caption, gallery[0].idNumber);
+
+    const clickCaption = createDiv('click-caption');
+    clickCaption.id = 'click-caption'
+    clickCaption.innerHTML = "Click Image to Scroll";
     
     content.appendChild(title);
     content.appendChild(galleryWrapper);
@@ -198,6 +206,8 @@ const loadGallery = () => {
     galleryWrapper.appendChild(figureWrapper);
     figureWrapper.appendChild(figure);
     galleryWrapper.appendChild(arrowRight);
+    galleryWrapper.appendChild(clickCaption);
+    
 
     addEventListeners();
 
