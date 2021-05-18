@@ -214,6 +214,10 @@ a:hover, a:visited, a:link, a:active
         margin: 5vh;
     }
 
+    .link{
+        margin: none;
+    }
+
     /* gallery */
 
     .gallery-figure {
