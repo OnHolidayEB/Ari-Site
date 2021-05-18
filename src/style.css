@@ -215,7 +215,7 @@ a:hover, a:visited, a:link, a:active
     }
 
     .link{
-        margin: none;
+        margin: 0px;
     }
 
     /* gallery */
