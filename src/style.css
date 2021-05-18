@@ -244,6 +244,7 @@ a:hover, a:visited, a:link, a:active
     }
 
     .gallery-caption{
+        
         font-size: 14px;
 
     }
@@ -257,6 +258,7 @@ a:hover, a:visited, a:link, a:active
     }
 
     .click-caption{
+        display: block;
         font-family: Didot, Didot LT STD, Hoefler Text, Garamond, Calisto MT, Times New Roman, serif;
         font-size: 10px;
         margin-top: 10px;
