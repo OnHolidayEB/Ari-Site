@@ -55,3 +55,13 @@ function init(){
     div.forEach(e => e.remove());
 
 }
+
+//to do
+//desktop: add 'back' button to top right 
+//update css 
+//add menu click down from 'ari sadok'
+//portrait
+//editorial
+//about
+
+//mobile: add ability to scroll back (clickbox);

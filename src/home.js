@@ -56,7 +56,7 @@ const pushLink = () => {
     const portfolios = linkWrapper.appendChild(createLink('Portfolios'));
     portfolios.id = 'portfolio';
     portfolios.href = '#thumbWrapper';
-    const bio = linkWrapper.appendChild(createLink('About / Contact'));
+    const bio = linkWrapper.appendChild(createLink('Contact'));
     bio.id = 'bio';
     bio.href = 'about.html'
 

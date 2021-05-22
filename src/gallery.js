@@ -84,9 +84,6 @@ const GalleryDom = () => {
 
     const galleryArray = galleryDom.getArray();
     
-
-    console.table(galleryArray)
-
     function getGalleryDom(){
         return galleryArray;
     }
@@ -95,15 +92,13 @@ const GalleryDom = () => {
 }
 
 
-
-
-
 const addEventListeners = () => {
     const leftArrow = document.getElementById('arrow-left');
     const rightArrow = document.getElementById('arrow-right');
     const figure = document.getElementById('gallery-figure');
 
     leftArrow.addEventListener('click', backArrow);
+   // leftArrow.addEventListener("touchmove")
     rightArrow.addEventListener('click', forwardArrow);
     figure.addEventListener('click', forwardArrow);
 }   

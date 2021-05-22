@@ -42,11 +42,12 @@
 }
 
 .link{
-    margin: 5px 15px 0px 0px;
+    
     font-size: 18px;
     font-family: Didot, Didot LT STD, Hoefler Text, Garamond, Calisto MT, Times New Roman, serif;
     color: black;
     text-decoration: none;
+    padding: 0px 15px;
 }
 
 
@@ -109,6 +110,8 @@ a:hover, a:visited, a:link, a:active
     margin: 0px auto;
     font-family: Didot, Didot LT STD, Hoefler Text, Garamond, Calisto MT, Times New Roman, serif;
     text-align: center;
+    line-height: 2;
+
 }
 
 
