@@ -4,7 +4,7 @@ import emma3 from './images/EditorialGallery/EmmaBoyd-ThirdImage.jpg';
 import emma4 from './images/EditorialGallery/EmmaBoyd-FourthImage.jpg';
 
 
-const createTitle = (titleText) => {
+/* const createTitle = (titleText) => {
     const anchor = document.createElement('a');
     const title = document.createElement('h1');
 
@@ -18,7 +18,7 @@ const createTitle = (titleText) => {
     anchor.appendChild(title);
 
     return anchor;
-}
+} */
 
 const createDiv = (divClass) => {
     const div = document.createElement('div');
@@ -177,7 +177,7 @@ const loadGallery = () => {
 
     
     const content = document.getElementById('content');
-    const title = createTitle('ARIEL SADOK');
+    //const title = createTitle('ARIEL SADOK');
 
     const galleryWrapper = createDiv('galleryWrapper');
     const arrowLeft = createDiv('arrow-left');
@@ -195,7 +195,7 @@ const loadGallery = () => {
     clickCaption.id = 'click-caption'
     clickCaption.innerHTML = "Click Image to Scroll";
     
-    content.appendChild(title);
+    //content.appendChild(title);
     content.appendChild(galleryWrapper);
     galleryWrapper.appendChild(arrowLeft);
     galleryWrapper.appendChild(figureWrapper);
