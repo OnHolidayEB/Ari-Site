@@ -18,7 +18,8 @@ switch (getUrl()) {
         addEventListeners();
         break;
 
-    case 'file:///Users/ericbouthiller/Projects/Ari_Site/dist/index.html'|| 'https://onholidayeb.github.io/Ari-Site/index.html': 
+    case //'file:///Users/ericbouthiller/Projects/Ari_Site/dist/index.html'|| 
+        'https://onholidayeb.github.io/Ari-Site/index.html': 
         init();
         loadHomePage();
         addEventListeners();
@@ -29,19 +30,22 @@ switch (getUrl()) {
         //loadEditorial();
         //loadGallery();*/
     
-        case 'file:///Users/ericbouthiller/Projects/Ari_Site/dist/index.html#thumbWrapper' ||'https://onholidayeb.github.io/Ari-Site/index.html#thumbWrapper':
+        case //'file:///Users/ericbouthiller/Projects/Ari_Site/dist/index.html#thumbWrapper' ||
+            'https://onholidayeb.github.io/Ari-Site/index.html#thumbWrapper':
         init();
         loadHomePage();
         addEventListeners();
         break;
     
-    case 'file:///Users/ericbouthiller/Projects/Ari_Site/dist/gallery.html'||'https://onholidayeb.github.io/Ari-Site/gallery.html':
+    case //'file:///Users/ericbouthiller/Projects/Ari_Site/dist/gallery.html'||
+        'https://onholidayeb.github.io/Ari-Site/gallery.html':
         init();
         pushMenuBar();
         loadGallery();
         break;
     
-    case 'file:///Users/ericbouthiller/Projects/Ari_Site/dist/about.html' ||'https://onholidayeb.github.io/Ari-Site/about.html':
+    case //'file:///Users/ericbouthiller/Projects/Ari_Site/dist/about.html' ||
+        'https://onholidayeb.github.io/Ari-Site/about.html':
         init();
         pushMenuBar();
         loadAbout();
