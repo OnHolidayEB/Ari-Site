@@ -74,7 +74,7 @@ const pushMenuBar = () => {
     const title = createTitle('ARIEL SADOK');
     
     title.addEventListener('mouseover', pushMenu)
-   // menuWrapper.addEventListener('mouseleave', rmMenu)
+    menuWrapper.addEventListener('mouseleave', rmMenu)
 
     menuWrapper.appendChild(title);
     content.appendChild(menuWrapper);
