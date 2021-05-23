@@ -14,7 +14,7 @@ const createMenuLink = (linkText, linkPage) => {
     const link = document.createElement('a');
     link.classList.add('menu-link');
     link.innerHTML = linkText;
-    link.href =  `file:///Users/ericbouthiller/Projects/Ari_Site/dist/${linkPage}.html`//`https://onholidayeb.github.io/Ari-Site/${linkPage}.html`
+    link.href =  `https://onholidayeb.github.io/Ari-Site/${linkPage}.html`
 
     return link;
 
