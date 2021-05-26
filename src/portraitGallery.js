@@ -81,16 +81,6 @@ const GalleryDom = () => {
     const ianFirst_ = galleryImg(ian1, 'Ian Weglarz', '12');
     const ianSecond_ = galleryImg(ian2, 'Ian Weglarz', '13');
 
-
-
-
-
-
-
-
-
-
-    
     const galleryDom = GalleryArray();
     galleryDom.populateArray(johnnyFirst_, johnnySecond_, dimphyFirst_, dimphySecond_, dimphyThird_,
             miloFirst_, miloSecond_, alexiaFirst_, alexiaSecond_, beastieFirst_, brionFirst_, brionSecond_,

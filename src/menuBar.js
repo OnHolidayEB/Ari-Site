@@ -42,7 +42,7 @@ const pushMenu = () => {
         const linkWrapper = createDiv('linkWrapper');
         linkWrapper.id = 'menu-link-wrapper';
         
-        const editorial = createMenuLink('Editorial', 'gallery');
+        const editorial = createMenuLink('Editorial', 'editorial');
         const portrait = createMenuLink('Portrait', 'portrait');
         const about = createMenuLink('Contact', 'about');
         about.id = 'about-link'
