@@ -111,7 +111,6 @@ const addEventListeners = () => {
     const figure = document.getElementById('gallery-figure');
 
     leftArrow.addEventListener('click', backArrow);
-   // leftArrow.addEventListener("touchmove")
     rightArrow.addEventListener('click', forwardArrow);
     figure.addEventListener('click', forwardArrow);
 }   
@@ -190,7 +189,6 @@ const loadEditorialGallery = () => {
 
     
     const content = document.getElementById('content');
-    //const title = createTitle('ARIEL SADOK');
 
     const galleryWrapper = createDiv('galleryWrapper');
     const arrowLeft = createDiv('arrow-left');
@@ -208,7 +206,6 @@ const loadEditorialGallery = () => {
     clickCaption.id = 'click-caption'
     clickCaption.innerHTML = "Click Image to Scroll";
     
-    //content.appendChild(title);
     content.appendChild(galleryWrapper);
     galleryWrapper.appendChild(arrowLeft);
     galleryWrapper.appendChild(figureWrapper);
