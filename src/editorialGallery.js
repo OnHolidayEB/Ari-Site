@@ -2,23 +2,19 @@ import emma1 from './images/EditorialGallery/EmmaBoyd-FirstImage.jpg';
 import emma2 from './images/EditorialGallery/EmmaBoyd-SecondImage.jpg';
 import emma3 from './images/EditorialGallery/EmmaBoyd-ThirdImage.jpg';
 import emma4 from './images/EditorialGallery/EmmaBoyd-FourthImage.jpg';
-
-
-/* const createTitle = (titleText) => {
-    const anchor = document.createElement('a');
-    const title = document.createElement('h1');
-
-    anchor.href = 'index.html'
-    anchor.classList.add('titleLink');
-
-    title.classList.add('gallery-title');
-    title.innerHTML = titleText;
-
-
-    anchor.appendChild(title);
-
-    return anchor;
-} */
+import destiny1 from './images/EditorialGallery/DestinyStrudwick-Image1.jpg';
+import destiny2 from './images/EditorialGallery/DestinyStrudwick-Image2.jpg';
+import destiny3 from './images/EditorialGallery/DestinyStrudwick-Image3.jpg';
+import destiny4 from './images/EditorialGallery/DestinyStrudwick-Image4.jpg';
+import destiny5 from './images/EditorialGallery/DestinyStrudwick-Image5.jpg';
+import dustin1 from './images/EditorialGallery/DustinHeath-Image1.jpg';
+import dustin2 from './images/EditorialGallery/DustinHeath-Image2.jpg';
+import dustin3 from './images/EditorialGallery/DustinHeath-Image3.jpg';
+import dustin4 from './images/EditorialGallery/DustinHeath-Image4.jpg';
+import foster1 from './images/EditorialGallery/FosterJames-Image1.jpg';
+import foster2 from './images/EditorialGallery/FosterJames-Image2.jpg';
+import foster3 from './images/EditorialGallery/FosterJames-Image3.jpg';
+import foster4 from './images/EditorialGallery/FosterJames-Image4.jpg';
 
 const createDiv = (divClass) => {
     const div = document.createElement('div');
@@ -78,9 +74,26 @@ const GalleryDom = () => {
     const emmaSecond_ = galleryImg(emma2, 'Emma Kate Boyd', '1');
     const emmaThird_ = galleryImg(emma3, 'Emma Kate Boyd', '2');
     const emmaFourth_ = galleryImg(emma4, 'Emma Kate Boyd', '3');
+    const destinyFirst_ = galleryImg(destiny1, 'Destiny Strudwick', '4');
+    const destinySecond_ = galleryImg(destiny2, 'Destiny Strudwick', '5');
+    const destinyThird_ = galleryImg(destiny3, 'Destiny Strudwick', '6');
+    const destinyFourth_ = galleryImg(destiny4, 'Destiny Strudwick', '7');
+    const destinyFifth_ = galleryImg(destiny5, 'Destiny Strudwick', '8');
+    const dustinFirst_ = galleryImg(dustin1, 'Dustin Heath', '9');
+    const dustinSecond_ = galleryImg(dustin2, 'Dustin Heath', '10');
+    const dustinThird_ = galleryImg(dustin3, 'Dustin Heath', '11');
+    const dustinFourth_ = galleryImg(dustin4, 'Dustin Heath', '12');
+    const fosterFirst_ = galleryImg(foster1, 'Foster James', '13');
+    const fosterSecond_ = galleryImg(foster2, 'Foster James', '14');
+    const fosterThird_ = galleryImg(foster3, 'Foster James', '15');
+    const fosterForth_ = galleryImg(foster4, 'Foster James', '16');
     
     const galleryDom = GalleryArray();
-    galleryDom.populateArray(emmaFirst_, emmaSecond_, emmaThird_, emmaFourth_);
+    galleryDom.populateArray(emmaFirst_, emmaSecond_, emmaThird_, emmaFourth_, 
+            destinyFirst_, destinySecond_, destinyThird_, destinyFourth_, destinyFifth_,
+            dustinFirst_, dustinSecond_, dustinThird_, dustinFourth_,
+            fosterFirst_, fosterSecond_, fosterThird_, fosterForth_
+                );
 
     const galleryArray = galleryDom.getArray();
     
@@ -173,7 +186,7 @@ const getCurrentGalleryFigure = () => {
     return figure;
 }
 
-const loadGallery = () => {
+const loadEditorialGallery = () => {
 
     
     const content = document.getElementById('content');
@@ -211,7 +224,7 @@ const loadGallery = () => {
 
 
 
-export default loadGallery;
+export default loadEditorialGallery;
 
 
 

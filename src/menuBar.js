@@ -1,7 +1,3 @@
-//create menubar wrapper
-//when title is clicked portrait, editorial and about buttons appear
-//all buttons should be links to other pages aka about.html
-
 
 const createDiv = (divClass) => {
     const div = document.createElement('div');
@@ -48,7 +44,7 @@ const pushMenu = () => {
         
         const editorial = createMenuLink('Editorial', 'gallery');
         const portrait = createMenuLink('Portrait', 'portrait');
-        const about = createMenuLink('About', 'about');
+        const about = createMenuLink('Contact', 'about');
         about.id = 'about-link'
 
         linkWrapper.appendChild(editorial);

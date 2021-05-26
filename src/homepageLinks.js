@@ -65,8 +65,8 @@ const pushPortfolioDom = () =>{
     else{
         const content = document.getElementById('content');
         const thumbWrapper = content.appendChild(createWrapper());
-        thumbWrapper.appendChild(createPortfolioLink(portrait, 'Portrait', ''));
-        thumbWrapper.appendChild(createPortfolioLink(editorial, 'Editorial', 'gallery.html'));
+        thumbWrapper.appendChild(createPortfolioLink(portrait, 'Portrait', 'portrait.html'));
+        thumbWrapper.appendChild(createPortfolioLink(editorial, 'Editorial', 'editorial.html'));
 
     }
     

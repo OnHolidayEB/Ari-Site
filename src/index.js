@@ -2,7 +2,8 @@ import './style.css';
 
 import loadHomePage from './home.js';
 import addEventListeners from './homepageLinks';
-import loadGallery from './gallery.js';
+import loadEditorialGallery from './editorialGallery.js';
+import loadPortraitGallery from './portraitGallery.js';
 import loadAbout from './about.js'
 import pushMenuBar from './menuBar.js'
 
@@ -18,34 +19,36 @@ switch (getUrl()) {
         addEventListeners();
         break;
 
-    case //'file:///Users/ericbouthiller/Projects/Ari_Site/dist/index.html'|| 
-        'https://onholidayeb.github.io/Ari-Site/index.html': 
+    case //'file:///Users/ericbouthiller/Projects/Ari_Site/dist/index.html':
+            'https://onholidayeb.github.io/Ari-Site/index.html': 
         init();
         loadHomePage();
         addEventListeners();
         break;
 
-   /* case 'file:///Users/ericbouthiller/Projects/Ari_Site/dist/editorial.html':
+    case //'file:///Users/ericbouthiller/Projects/Ari_Site/dist/portrait.html':
+            'https://onholidayeb.github.io/Ari-Site/index.html':
         init();
-        //loadEditorial();
-        //loadGallery();*/
+        pushMenuBar();
+        loadPortraitGallery();
+        break;
     
-        case //'file:///Users/ericbouthiller/Projects/Ari_Site/dist/index.html#thumbWrapper' ||
+        case //'file:///Users/ericbouthiller/Projects/Ari_Site/dist/index.html#thumbWrapper':
             'https://onholidayeb.github.io/Ari-Site/index.html#thumbWrapper':
         init();
         loadHomePage();
         addEventListeners();
         break;
     
-    case //'file:///Users/ericbouthiller/Projects/Ari_Site/dist/gallery.html'||
-        'https://onholidayeb.github.io/Ari-Site/gallery.html':
+    case //'file:///Users/ericbouthiller/Projects/Ari_Site/dist/editorial.html':
+            'https://onholidayeb.github.io/Ari-Site/editorial.html':
         init();
         pushMenuBar();
-        loadGallery();
+        loadEditorialGallery();
         break;
     
-    case //'file:///Users/ericbouthiller/Projects/Ari_Site/dist/about.html' ||
-        'https://onholidayeb.github.io/Ari-Site/about.html':
+    case //'file:///Users/ericbouthiller/Projects/Ari_Site/dist/about.html':
+            'https://onholidayeb.github.io/Ari-Site/about.html':
         init();
         pushMenuBar();
         loadAbout();

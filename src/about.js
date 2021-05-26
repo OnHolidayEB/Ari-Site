@@ -1,19 +1,4 @@
-/* const createTitle = (titleText) => {
-    const anchor = document.createElement('a');
-    const title = document.createElement('h1');
 
-    anchor.href = 'index.html'
-    anchor.classList.add('titleLink');
-
-    title.classList.add('gallery-title');
-    title.innerHTML = titleText;
-
-
-    anchor.appendChild(title);
-
-    return anchor;
-};
- */
 const createDiv = (divClass) => {
     const div = document.createElement('div');
     div.classList.add(`${divClass}`);
