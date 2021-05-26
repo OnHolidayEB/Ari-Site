@@ -27,7 +27,7 @@ switch (getUrl()) {
         break;
 
     case //'file:///Users/ericbouthiller/Projects/Ari_Site/dist/portrait.html':
-            'https://onholidayeb.github.io/Ari-Site/index.html':
+            'https://onholidayeb.github.io/Ari-Site/portrait.html':
         init();
         pushMenuBar();
         loadPortraitGallery();
