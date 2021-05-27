@@ -59,7 +59,11 @@ const pushMenu = () => {
 
 const rmMenu = () => {
     const linkWrapper = document.getElementById('menu-link-wrapper');
-    linkWrapper.remove();
+    linkWrapper.addEventListener('animationend', () => {
+        linkWrapper.remove();
+
+    })
+    linkWrapper.classList.toggle('linkWrapperFadeOut')
 }
 
 

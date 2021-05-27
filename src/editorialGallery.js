@@ -134,6 +134,7 @@ function backArrow() {
         const newImg = createFigure(gallery[newFigID].img, gallery[newFigID].caption, gallery[newFigID].idNumber);
         currentFig.remove();
         figureWrapper.appendChild(newImg);
+        newImg.addEventListener('click', forwardArrow);
 
     }
     
@@ -158,14 +159,17 @@ function forwardArrow(){
 
     else{
         const newImg = createFigure(gallery[newFigID].img, gallery[newFigID].caption, gallery[newFigID].idNumber);
-        currentFig.remove();
-        
-        figureWrapper.appendChild(newImg);
-        newImg.addEventListener('click', forwardArrow);
-        if(document.getElementById('click-caption') != null){
-            removeClickCaption();
-        }
+        currentFig.addEventListener('animationend', () => {
+            currentFig.remove();
+            newImg.addEventListener('click', forwardArrow);
+            if(document.getElementById('click-caption') != null){
+                removeClickCaption();
+            }
 
+        figureWrapper.appendChild(newImg);
+
+        })
+        currentFig.classList.toggle("img-fadeOut")
     }
 
     

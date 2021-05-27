@@ -30,6 +30,8 @@
     position: absolute;
     top: 2vh;
     left: 2vw;
+
+   
 }
 
 .linkWrapper{
@@ -39,7 +41,21 @@
     padding-left: 3vw;
     padding-top: .75vh;
     line-height: 1.5;
+
+    animation-name: fadeIn;
+    animation-duration: .5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
+
+.linkWrapperFadeOut{
+    animation-name: fadeOut;
+    animation-duration: .5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+
 
 .menu-link{
     color: black;
@@ -93,6 +109,11 @@
 .thumbnail{
     height: 150px;
     width: auto;
+
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
 .thumbnail:hover{
@@ -185,6 +206,41 @@ a:hover, a:visited, a:link, a:active
     flex-direction: column;
     align-items: center;
     margin: 0 auto;
+    opacity: 0;
+    
+    animation-name: fadeIn;
+    animation-duration: .5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
+}
+
+.img-fadeOut{
+    animation-name: fadeOut;
+    animation-duration: .2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn{
+    0%{
+        opacity: 0%
+    }
+
+    100%{
+        opacity: 100%
+    }
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 100%;
+    }
+
+    100%{
+        opacity: 0%;
+    }
+    
 }
 
 .galleryWrapper{
