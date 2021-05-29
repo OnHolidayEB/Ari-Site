@@ -19,40 +19,68 @@ switch (getUrl()) {
         addEventListeners();
         break;
 
-    case //'file:///Users/ericbouthiller/Projects/Ari_Site/dist/index.html':
-           'https://onholidayeb.github.io/Ari-Site/index.html': 
+    case 'https://onholidayeb.github.io/Ari-Site/index.html': 
         init();
         loadHomePage();
         addEventListeners();
         break;
 
-    case //'file:///Users/ericbouthiller/Projects/Ari_Site/dist/portrait.html':
-           'https://onholidayeb.github.io/Ari-Site/portrait.html':
+    case 'https://onholidayeb.github.io/Ari-Site/portrait.html':
         init();
         pushMenuBar();
         loadPortraitGallery();
         break;
     
-        case //'file:///Users/ericbouthiller/Projects/Ari_Site/dist/index.html#thumbWrapper':
-             'https://onholidayeb.github.io/Ari-Site/index.html#thumbWrapper':
+    case 'https://onholidayeb.github.io/Ari-Site/index.html#thumbWrapper':
         init();
         loadHomePage();
         addEventListeners();
         break;
     
-    case //'file:///Users/ericbouthiller/Projects/Ari_Site/dist/editorial.html':
-           'https://onholidayeb.github.io/Ari-Site/editorial.html':
+    case 'https://onholidayeb.github.io/Ari-Site/editorial.html':
         init();
         pushMenuBar();
         loadEditorialGallery();
         break;
     
-    case //'file:///Users/ericbouthiller/Projects/Ari_Site/dist/about.html':
-          'https://onholidayeb.github.io/Ari-Site/about.html':
+    case 'https://onholidayeb.github.io/Ari-Site/about.html':
         init();
         pushMenuBar();
         loadAbout();
         break;
+        
+    case 'file:///Users/ericbouthiller/Projects/Ari_Site/dist/index.html':
+        init();
+        loadHomePage();
+        addEventListeners();
+        break;
+ 
+    case 'file:///Users/ericbouthiller/Projects/Ari_Site/dist/portrait.html':
+            
+        init();
+        pushMenuBar();
+        loadPortraitGallery();
+        break;
+     
+    case 'file:///Users/ericbouthiller/Projects/Ari_Site/dist/index.html#thumbWrapper':
+              
+        init();
+        loadHomePage();
+        addEventListeners();
+        break;
+     
+    case 'file:///Users/ericbouthiller/Projects/Ari_Site/dist/editorial.html':
+            
+        init();
+        pushMenuBar();
+        loadEditorialGallery();
+        break;
+     
+    case 'file:///Users/ericbouthiller/Projects/Ari_Site/dist/about.html':
+         init();
+         pushMenuBar();
+         loadAbout();
+         break;
 
         
 }

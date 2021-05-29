@@ -18,9 +18,9 @@ const createMenuLink = (linkText, linkPage) => {
 
 const createTitle = (titleText) => {
     const anchor = document.createElement('a');
+    anchor.id = 'title-anchor'
     const title = document.createElement('h1');
 
-    anchor.href = 'index.html'
 
     title.classList.add('gallery-title');
     title.innerHTML = titleText;
@@ -41,6 +41,9 @@ const pushMenu = () => {
         const menuWrapper = document.getElementById('menuWrapper')
         const linkWrapper = createDiv('linkWrapper');
         linkWrapper.id = 'menu-link-wrapper';
+        const title = document.getElementById('title-anchor');
+
+      
         
         const editorial = createMenuLink('Editorial', 'editorial');
         const portrait = createMenuLink('Portrait', 'portrait');
@@ -52,7 +55,10 @@ const pushMenu = () => {
         linkWrapper.appendChild(about);
 
         menuWrapper.appendChild(linkWrapper);
-        
+        title.addEventListener('click', () => {
+            title.href = 'index.html'
+
+        })
 
     }
 }
@@ -73,11 +79,14 @@ const pushMenuBar = () => {
     menuWrapper.id = "menuWrapper";
     const title = createTitle('ARIEL SADOK');
     
-    title.addEventListener('mouseover', pushMenu)
-    menuWrapper.addEventListener('mouseleave', rmMenu)
+    
 
     menuWrapper.appendChild(title);
     content.appendChild(menuWrapper);
+    
+    title.addEventListener('mouseover', pushMenu)
+    title.addEventListener('touchstart', pushMenu);
+    menuWrapper.addEventListener('mouseleave', rmMenu)
 }
 
 

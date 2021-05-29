@@ -1,5 +1,8 @@
 
+#content{
+    height: 100vh;
 
+}
 /*homepage*/
 
 .title{
@@ -160,7 +163,6 @@ a:hover, a:visited, a:link, a:active
     font-family: Didot, Didot LT STD, Hoefler Text, Garamond, Calisto MT, Times New Roman, serif;
     text-align: center;
     line-height: 2;
-
 }
 
 
@@ -177,8 +179,6 @@ a:hover, a:visited, a:link, a:active
     color: black;
 }
     
-
-
 .arrow-left{
     display: flex;
     width: 0;
@@ -209,7 +209,7 @@ a:hover, a:visited, a:link, a:active
     opacity: 0;
     
     animation-name: fadeIn;
-    animation-duration: .5s;
+    animation-duration: 1.5s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 
@@ -217,7 +217,7 @@ a:hover, a:visited, a:link, a:active
 
 .img-fadeOut{
     animation-name: fadeOut;
-    animation-duration: .2s;
+    animation-duration: 1.5s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
@@ -247,8 +247,17 @@ a:hover, a:visited, a:link, a:active
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-top: 15vh;
+    
+    height: 100vh;
+    margin: 0 auto;
     justify-content: space-between;
+
+    /*
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 15vh;
+    justify-content: space-between;*/
 }
 
 
@@ -258,11 +267,25 @@ a:hover, a:visited, a:link, a:active
 }
 
 .gallery-figure{
-    display: flex;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
     height: 80vh;
     flex-direction: column;
     align-items: center;
-    margin: 0 auto;
+    margin: auto;
+    width: fit-content;
+
+
+    /*
+    display: flex;
+    position: static;
+    height: 80vh;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;*/
 }
 
 .click-caption{
@@ -314,7 +337,7 @@ a:hover, a:visited, a:link, a:active
 
     .menuWrapper{
         background-color: rgba(255, 255, 255, .65);
-
+        z-index: 40;
     }
 
     /* about page*/
@@ -367,6 +390,8 @@ a:hover, a:visited, a:link, a:active
         font-family: Didot, Didot LT STD, Hoefler Text, Garamond, Calisto MT, Times New Roman, serif;
         font-size: 10px;
         margin-top: 10px;
+        position: absolute;
+        bottom: 10vh;
     }
 
 

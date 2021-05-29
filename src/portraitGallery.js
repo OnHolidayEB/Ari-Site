@@ -24,7 +24,7 @@ const createDiv = (divClass) => {
 const createFigure = (source, caption, idNumber ) => {
     const figure = document.createElement('figure');
     figure.classList.add('gallery-figure');
-    figure.id = 'gallery-figure';
+    //figure.id = 'gallery-figure';
     figure.dataset.idNumber = idNumber;
 
     const img = document.createElement('img');
@@ -100,15 +100,62 @@ const GalleryDom = () => {
 const addEventListeners = () => {
     const leftArrow = document.getElementById('arrow-left');
     const rightArrow = document.getElementById('arrow-right');
-    const figure = document.getElementById('gallery-figure');
+    const images = document.querySelectorAll('img.gallery-img');
 
     leftArrow.addEventListener('click', backArrow);
     rightArrow.addEventListener('click', forwardArrow);
-    figure.addEventListener('click', forwardArrow);
+    images.forEach(img => {
+        img.addEventListener('click', forwardArrow);
+    })
 }   
 
 function backArrow() {
     const gallery = GalleryDom().getGalleryDom();
+    const currentFig = getCurrentGalleryFigure();
+    const currentFigID = parseInt(currentFig.dataset.idNumber);
+    const newFigID = currentFigID - 1;
+    const newFig = document.querySelector(`.gallery-figure[data-id-number="${newFigID}"`)
+
+    currentFig.style.zIndex = 0;
+    currentFig.classList.toggle('img-fadeOut')
+    currentFig.addEventListener('animationend', (e) => {
+
+        if(e.animationName == 'fadeIn'){
+            return;
+        }
+
+        else{
+            currentFig.style.display = 'none';
+            currentFig.classList.remove('img-fadeOut');
+
+        }
+        
+    })
+
+    if(currentFigID == 0){
+        const firstImg = document.querySelector(`.gallery-figure[data-id-number= '${gallery.length - 1}'`);
+        firstImg.style.zIndex = 30;
+        firstImg.style.display = 'flex';
+        firstImg.id = 'current-figure';
+        currentFig.id = '';
+
+
+    }
+
+    else{
+        currentFig.id = '';
+        newFig.style.zIndex = 30;
+        newFig.style.display = 'flex';
+        newFig.id = 'current-figure'
+        const newFigImg = newFig.querySelector('.gallery-img');
+        newFigImg.id = 'current-image';
+    }
+    
+    
+    
+    
+    
+    /*const gallery = GalleryDom().getGalleryDom();
     const currentFig = getCurrentGalleryFigure();
     const currentFigID = currentFig.dataset.idNumber;
     const newFigID = parseInt(currentFigID) - 1;
@@ -132,7 +179,7 @@ function backArrow() {
 
 
     }
-    
+    */
 
 }
 
@@ -141,9 +188,53 @@ function forwardArrow(){
     const currentFig = getCurrentGalleryFigure();
     const currentFigID = parseInt(currentFig.dataset.idNumber);
     const newFigID = currentFigID + 1;
-    const figureWrapper = document.getElementById('figureWrapper');
+    const newFig = document.querySelector(`.gallery-figure[data-id-number="${newFigID}"`)
+
+    currentFig.style.zIndex = 0;
+    currentFig.classList.toggle('img-fadeOut')
+    currentFig.addEventListener('animationend', (e) => {
+
+        if(e.animationName == 'fadeIn'){
+            return;
+        }
+
+        else{
+            currentFig.style.display = 'none';
+            currentFig.classList.remove('img-fadeOut');
+
+        }
+        
+    })
+
+    if(currentFigID == gallery.length - 1){
+        const firstImg = document.querySelector('.gallery-figure[data-id-number="0"');
+        firstImg.style.zIndex = 30;
+        firstImg.style.display = 'flex';
+        firstImg.id = 'current-figure';
+        currentFig.id = '';
 
 
+    }
+
+    else{
+        currentFig.id = '';
+        newFig.style.zIndex = 30;
+        newFig.style.display = 'flex';
+        newFig.id = 'current-figure'
+        if(document.getElementById('click-caption') != null){
+            removeClickCaption();
+        }
+    }
+    
+   
+
+    
+
+
+
+
+
+/*
     if(currentFigID == gallery.length - 1){
         const newImg = createFigure(gallery[0].img, gallery[0].caption, gallery[0].idNumber);
         currentFig.remove();
@@ -156,23 +247,19 @@ function forwardArrow(){
         const newImg = createFigure(gallery[newFigID].img, gallery[newFigID].caption, gallery[newFigID].idNumber);
         currentFig.addEventListener('animationend', () => {
             currentFig.remove();
-            newImg.addEventListener('click', forwardArrow);
-            if(document.getElementById('click-caption') != null){
-                removeClickCaption();
-            }
-
-        figureWrapper.appendChild(newImg);
-
         })
         currentFig.classList.toggle("img-fadeOut")
 
-    }
+        newImg.addEventListener('click', forwardArrow);
+        if(document.getElementById('click-caption') != null){
+            removeClickCaption();
+        }
+
+        figureWrapper.appendChild(newImg);
+
+    }*/
 
     
-    
-
-
-
 }   
 
 const removeClickCaption = () => {
@@ -181,7 +268,8 @@ const removeClickCaption = () => {
 }
 
 const getCurrentGalleryFigure = () => {
-    const figure = document.getElementById('gallery-figure');
+    const figure = document.getElementById('current-figure');
+    
     return figure;
 }
 
@@ -200,7 +288,10 @@ const loadPortraitGallery = () => {
 
     const figureWrapper = createDiv('figureWrapper');
     figureWrapper.id = 'figureWrapper';
-    const figure = createFigure(gallery[0].img, gallery[0].caption, gallery[0].idNumber);
+    //const figure = createFigure(gallery[0].img, gallery[0].caption, gallery[0].idNumber);
+
+    
+
 
     const clickCaption = createDiv('click-caption');
     clickCaption.id = 'click-caption'
@@ -209,10 +300,25 @@ const loadPortraitGallery = () => {
     content.appendChild(galleryWrapper);
     galleryWrapper.appendChild(arrowLeft);
     galleryWrapper.appendChild(figureWrapper);
-    figureWrapper.appendChild(figure);
+    //figureWrapper.appendChild(figure);
+    gallery.forEach((image, index) => {
+        image = createFigure(gallery[index].img, gallery[index].caption, gallery[index].idNumber);
+        figureWrapper.appendChild(image);
+        image.style.zIndex = 0;
+        image.style.display = 'none';
+    })
     galleryWrapper.appendChild(arrowRight);
     galleryWrapper.appendChild(clickCaption);
+
     
+    const currentFigure = document.querySelector('.gallery-figure[data-id-number="0"');
+    currentFigure.style.zIndex = 30;
+    currentFigure.style.display = 'flex';
+    currentFigure.id = 'current-figure';
+    const currentFigureImg = currentFigure.querySelector('.gallery-img');
+    currentFigureImg.id = 'current-image';
+   
+
 
     addEventListeners();
 
