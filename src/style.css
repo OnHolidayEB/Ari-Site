@@ -370,6 +370,7 @@ a:hover, a:visited, a:link, a:active
         height: fit-content;
         margin: 0 auto;
         max-height: 65vh;
+        object-fit: contain;
     }
 
     .gallery-caption{

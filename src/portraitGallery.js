@@ -114,7 +114,7 @@ function backArrow() {
     const currentFig = getCurrentGalleryFigure();
     const currentFigID = parseInt(currentFig.dataset.idNumber);
     const newFigID = currentFigID - 1;
-    const newFig = document.querySelector(`.gallery-figure[data-id-number="${newFigID}"`)
+    const newFig = document.querySelector(`.gallery-figure[data-id-number="${newFigID}"]`)
 
     currentFig.style.zIndex = 0;
     currentFig.classList.toggle('img-fadeOut')
@@ -133,7 +133,7 @@ function backArrow() {
     })
 
     if(currentFigID == 0){
-        const firstImg = document.querySelector(`.gallery-figure[data-id-number= '${gallery.length - 1}'`);
+        const firstImg = document.querySelector(`.gallery-figure[data-id-number= '${gallery.length - 1}']`);
         firstImg.style.zIndex = 30;
         firstImg.style.display = 'flex';
         firstImg.id = 'current-figure';
@@ -188,7 +188,7 @@ function forwardArrow(){
     const currentFig = getCurrentGalleryFigure();
     const currentFigID = parseInt(currentFig.dataset.idNumber);
     const newFigID = currentFigID + 1;
-    const newFig = document.querySelector(`.gallery-figure[data-id-number="${newFigID}"`)
+    const newFig = document.querySelector(`.gallery-figure[data-id-number="${newFigID}"]`)
 
     currentFig.style.zIndex = 0;
     currentFig.classList.toggle('img-fadeOut')
@@ -207,7 +207,7 @@ function forwardArrow(){
     })
 
     if(currentFigID == gallery.length - 1){
-        const firstImg = document.querySelector('.gallery-figure[data-id-number="0"');
+        const firstImg = document.querySelector('.gallery-figure[data-id-number="0"]');
         firstImg.style.zIndex = 30;
         firstImg.style.display = 'flex';
         firstImg.id = 'current-figure';
@@ -311,7 +311,7 @@ const loadPortraitGallery = () => {
     galleryWrapper.appendChild(clickCaption);
 
     
-    const currentFigure = document.querySelector('.gallery-figure[data-id-number="0"');
+    const currentFigure = document.querySelector('.gallery-figure[data-id-number="0"]');
     currentFigure.style.zIndex = 30;
     currentFigure.style.display = 'flex';
     currentFigure.id = 'current-figure';
