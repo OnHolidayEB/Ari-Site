@@ -366,9 +366,10 @@ a:hover, a:visited, a:link, a:active
     }
 
     .gallery-img {
-        width: 95vw;
+        max-width: 95vw;
         height: fit-content;
         margin: 0 auto;
+        max-height: 65vh;
     }
 
     .gallery-caption{
