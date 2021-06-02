@@ -13,7 +13,7 @@ const loadAbout = () => {
     
     const aboutText = createDiv('aboutText');
     
-    aboutText.innerHTML = "Fashion and Portrait photographer based in New York City. <br/a> For inquiries Email Ariel.Sadok@gmail.com"
+    aboutText.innerHTML = "Fashion and Portrait photographer based in New York City. <br/a> For inquiries email Ariel.Sadok@gmail.com"
 
     content.appendChild(aboutText);
 }

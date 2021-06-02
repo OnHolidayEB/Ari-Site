@@ -374,6 +374,8 @@ a:hover, a:visited, a:link, a:active
     .gallery-caption{
         
         font-size: 14px;
+        position: absolute;
+        bottom: 8vh;
 
     }
 
