@@ -208,37 +208,57 @@ a:hover, a:visited, a:link, a:active
     margin: 0 auto;
     opacity: 0;
     
+    
+
     animation-name: fadeIn;
     animation-duration: 1.5s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-
+    
+    -webkit-animation-name: fadeIn;
+    -webkit-animation-duration: 1.5s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
 }
 
 .img-fadeOut{
+    
+
     animation-name: fadeOut;
     animation-duration: 1.5s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+    
+    -webkit-animation-name: fadeOut;
+    -webkit-animation-duration: 1.5s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
 }
 
 @keyframes fadeIn{
     0%{
-        opacity: 0%
+        opacity: 0%;
+        -webkit-opacity: 0%
     }
 
     100%{
-        opacity: 100%
+        opacity: 100%;
+        -webkit-opacity: 100%;
+
     }
 }
 
 @keyframes fadeOut {
     0% {
         opacity: 100%;
+        -webkit-opacity: 100%;
+
     }
 
     100%{
         opacity: 0%;
+        -webkit-opacity: 0%
+
     }
     
 }
@@ -395,7 +415,7 @@ a:hover, a:visited, a:link, a:active
         font-size: 10px;
         margin-top: 10px;
         position: absolute;
-        bottom: 10vh;
+        bottom: 4vh;
     }
 
 
