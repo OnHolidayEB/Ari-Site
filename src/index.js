@@ -13,6 +13,42 @@ function getUrl(){
 }
 switch (getUrl()) {
 
+    case 'arielsadok.com' :
+        init();
+        loadHomePage();
+        addEventListeners();
+        break;
+
+    case 'arielsadok.com/index.html':
+        init();
+        loadHomePage();
+        addEventListeners();
+        break;
+
+    case 'arielsadok.com/index.html#thumbWrapper':
+            init();
+            loadHomePage();
+            addEventListeners();
+            break;
+    
+    case 'arielsadok.com/portrait.html':
+            init();
+            pushMenuBar();
+            loadPortraitGallery();
+            break;
+    
+    case 'arielsadok.com/editorial.html':
+                init();
+                pushMenuBar();
+                loadEditorialGallery();
+                break;
+            
+    case 'arielsadok.com/about.html':
+                init();
+                pushMenuBar();
+                loadAbout();
+                break;
+    
     case 'https://onholidayeb.github.io/Ari-Site/':
         init();
         loadHomePage();
@@ -49,7 +85,7 @@ switch (getUrl()) {
         loadAbout();
         break;
         
-    case 'file:///Users/ericbouthiller/Projects/Ari_Site/dist/index.html':
+   /* case 'file:///Users/ericbouthiller/Projects/Ari_Site/dist/index.html':
         init();
         loadHomePage();
         addEventListeners();
@@ -81,7 +117,7 @@ switch (getUrl()) {
          pushMenuBar();
          loadAbout();
          break;
-
+*/
         
 }
 
