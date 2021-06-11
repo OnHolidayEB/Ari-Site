@@ -159,37 +159,7 @@ function backArrow() {
         const newFigImg = newFig.querySelector('.gallery-img');
         newFigImg.id = 'current-image';
     }
-    
-    
-    
-    
-    
-    /*const gallery = GalleryDom().getGalleryDom();
-    const currentFig = getCurrentGalleryFigure();
-    const currentFigID = currentFig.dataset.idNumber;
-    const newFigID = parseInt(currentFigID) - 1;
-    const figureWrapper = document.getElementById('figureWrapper');
-
-    if(currentFigID == 0){
-        const lastImgId = gallery.length - 1;
-        const newImg = createFigure(gallery[lastImgId].img, gallery[lastImgId].caption, gallery[lastImgId].idNumber);
-        currentFig.remove();
-        figureWrapper.appendChild(newImg);
-        newImg.addEventListener('click', forwardArrow);
-
-
-    }
-
-    else{
-        const newImg = createFigure(gallery[newFigID].img, gallery[newFigID].caption, gallery[newFigID].idNumber);
-        currentFig.remove();
-        figureWrapper.appendChild(newImg);
-        newImg.addEventListener('click', forwardArrow);
-
-
-    }
-    */
-
+   
 }
 
 function forwardArrow(){
@@ -238,41 +208,7 @@ function forwardArrow(){
             removeClickCaption();
         }
     }
-    
-   
 
-    
-
-
-
-
-
-/*
-    if(currentFigID == gallery.length - 1){
-        const newImg = createFigure(gallery[0].img, gallery[0].caption, gallery[0].idNumber);
-        currentFig.remove();
-        figureWrapper.appendChild(newImg);
-        newImg.addEventListener('click', forwardArrow);
-
-    }
-
-    else{
-        const newImg = createFigure(gallery[newFigID].img, gallery[newFigID].caption, gallery[newFigID].idNumber);
-        currentFig.addEventListener('animationend', () => {
-            currentFig.remove();
-        })
-        currentFig.classList.toggle("img-fadeOut")
-
-        newImg.addEventListener('click', forwardArrow);
-        if(document.getElementById('click-caption') != null){
-            removeClickCaption();
-        }
-
-        figureWrapper.appendChild(newImg);
-
-    }*/
-
-    
 }   
 
 const removeClickCaption = () => {
