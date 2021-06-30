@@ -11,39 +11,42 @@ import pushMenuBar from './menuBar.js'
 function getUrl(){
     return window.location.href;
 }
+
+console.log(`${getUrl()}`);
 switch (getUrl()) {
 
-    case 'arielsadok.com' :
+    case 'https://www.arielsadok.com' :
         init();
         loadHomePage();
         addEventListeners();
         break;
 
-    case 'arielsadok.com/index.html':
+    
+    case 'https://www.arielsadok.com/index.html':
         init();
         loadHomePage();
         addEventListeners();
         break;
 
-    case 'arielsadok.com/index.html#thumbWrapper':
+    case 'https://www.arielsadok.com/index.html#thumbWrapper':
             init();
             loadHomePage();
             addEventListeners();
             break;
     
-    case 'arielsadok.com/portrait.html':
+    case 'https://www.arielsadok.com/portrait.html':
             init();
             pushMenuBar();
             loadPortraitGallery();
             break;
     
-    case 'arielsadok.com/editorial.html':
+    case 'https://www.arielsadok.com/editorial.html':
                 init();
                 pushMenuBar();
                 loadEditorialGallery();
                 break;
             
-    case 'arielsadok.com/about.html':
+    case 'https://www.arielsadok.com/about.html':
                 init();
                 pushMenuBar();
                 loadAbout();
