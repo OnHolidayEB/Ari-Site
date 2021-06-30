@@ -15,7 +15,7 @@ function getUrl(){
 console.log(`${getUrl()}`);
 switch (getUrl()) {
 
-    case 'https://www.arielsadok.com' :
+    case 'https://www.arielsadok.com/' : 
         init();
         loadHomePage();
         addEventListeners();
