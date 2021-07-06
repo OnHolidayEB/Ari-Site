@@ -227,12 +227,12 @@ a:hover, a:visited, a:link, a:active
     
 
     animation-name: fadeOut;
-    animation-duration: 1s;
+    animation-duration: .5s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     
     -webkit-animation-name: fadeOut;
-    -webkit-animation-duration: 1.5s;
+    -webkit-animation-duration: .5s;
     -webkit-animation-iteration-count: 1;
     -webkit-animation-fill-mode: forwards;
 }
