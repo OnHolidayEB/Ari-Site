@@ -88,7 +88,7 @@ switch (getUrl()) {
         loadAbout();
         break;
         
-   /* case 'file:///Users/ericbouthiller/Projects/Ari_Site/dist/index.html':
+   case'file:///Users/ericbouthiller/Projects/Ari_Site/dist/index.html':
         init();
         loadHomePage();
         addEventListeners();
@@ -120,7 +120,7 @@ switch (getUrl()) {
          pushMenuBar();
          loadAbout();
          break;
-*/
+
         
 }
 

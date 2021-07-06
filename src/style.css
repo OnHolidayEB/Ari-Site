@@ -1,6 +1,7 @@
 
 #content{
     height: 100vh;
+    display: flex;
 
 }
 /*homepage*/
@@ -225,7 +226,7 @@ a:hover, a:visited, a:link, a:active
     
 
     animation-name: fadeOut;
-    animation-duration: 1.5s;
+    animation-duration: 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     
@@ -264,20 +265,31 @@ a:hover, a:visited, a:link, a:active
 }
 
 .galleryWrapper{
+    
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 84vh;
+    width: 95vw;
+    margin: 0 auto;
+    justify-content: space-between;
+    justify-self: center;
+    align-self: center;
+    
+    
+    /*display: flex;
     flex-direction: row;
     align-items: center;
     
     height: 100vh;
     margin: 0 auto;
-    justify-content: space-between;
-
-    /*
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-top: 15vh;
     justify-content: space-between;*/
+}
+
+.clickbox{
+    height: 84vh;
+    width: 50vw;
+    z-index: 1000;
 }
 
 
@@ -378,7 +390,7 @@ a:hover, a:visited, a:link, a:active
     }
     .galleryWrapper {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         margin-top: 0px;
         justify-content: center;

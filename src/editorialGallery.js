@@ -110,12 +110,16 @@ const addEventListeners = () => {
     const leftArrow = document.getElementById('arrow-left');
     const rightArrow = document.getElementById('arrow-right');
     const images = document.querySelectorAll('img.gallery-img');
+    const clickboxLeft = document.getElementById('clickboxLeft');
+    const clickboxRight = document.getElementById('clickboxRight');
 
     leftArrow.addEventListener('click', backArrow);
+    clickboxLeft.addEventListener('click', backArrow);
     rightArrow.addEventListener('click', forwardArrow);
-    images.forEach(img => {
+    clickboxRight.addEventListener('click', forwardArrow);
+    /*images.forEach(img => {
         img.addEventListener('click', forwardArrow);
-    })
+    })*/
 }   
 
 function backArrow() {
@@ -125,6 +129,7 @@ function backArrow() {
     const newFigID = currentFigID - 1;
     const newFig = document.querySelector(`.gallery-figure[data-id-number="${newFigID}"]`)
 
+    
     currentFig.style.zIndex = 0;
     currentFig.classList.toggle('img-fadeOut')
     currentFig.addEventListener('animationend', (e) => {
@@ -140,15 +145,27 @@ function backArrow() {
         }
         
     })
+    
 
     if(currentFigID == 0){
-        const firstImg = document.querySelector(`.gallery-figure[data-id-number= '${gallery.length - 1}']`);
-        firstImg.style.zIndex = 30;
-        firstImg.style.display = 'flex';
-        firstImg.id = 'current-figure';
+        const lastImg = document.querySelector(`.gallery-figure[data-id-number= '${gallery.length - 1}']`);
+        lastImg.style.zIndex = 30;
+        lastImg.style.display = 'flex';
+        lastImg.id = 'current-figure';
         currentFig.id = '';
 
 
+    }
+
+    else if(newFig.className == 'gallery-figure img-fadeOut'){
+        newFig.classList.remove('img-fadeOut');
+        newFig.style.display = 'flex';
+        newFig.style.zIndex = 30;
+
+        currentFig.id = '';
+        newFig.id = 'current-figure'
+        const newFigImg = newFig.querySelector('.gallery-img');
+        newFigImg.id = 'current-image';
     }
 
     else{
@@ -159,7 +176,7 @@ function backArrow() {
         const newFigImg = newFig.querySelector('.gallery-img');
         newFigImg.id = 'current-image';
     }
-   
+    
 }
 
 function forwardArrow(){
@@ -195,20 +212,26 @@ function forwardArrow(){
 
     }
 
-    else{
-        currentFig.id = '';
-        const currentFigImg = currentFig.querySelector('.gallery-img');
-        currentFigImg.id = '';
-        newFig.style.zIndex = 30;
+    else if(newFig.className == 'gallery-figure img-fadeOut'){
+        newFig.classList.remove('img-fadeOut');
         newFig.style.display = 'flex';
+        newFig.style.zIndex = 30;
+
+        currentFig.id = '';
         newFig.id = 'current-figure'
         const newFigImg = newFig.querySelector('.gallery-img');
         newFigImg.id = 'current-image';
+    }
+
+    else{
+        currentFig.id = '';
+        newFig.style.zIndex = 30;
+        newFig.style.display = 'flex';
+        newFig.id = 'current-figure'
         if(document.getElementById('click-caption') != null){
             removeClickCaption();
         }
-    }
-
+    }    
 }   
 
 const removeClickCaption = () => {
@@ -228,6 +251,10 @@ const loadEditorialGallery = () => {
     const galleryWrapper = createDiv('galleryWrapper');
     const arrowLeft = createDiv('arrow-left');
     arrowLeft.id= 'arrow-left';
+    const clickboxLeft = createDiv('clickbox');
+    clickboxLeft.id = 'clickboxLeft';
+    const clickboxRight = createDiv('clickbox');
+    clickboxRight.id = 'clickboxRight';
     const arrowRight = createDiv('arrow-right');
     arrowRight.id='arrow-right';
 
@@ -242,6 +269,8 @@ const loadEditorialGallery = () => {
     
     content.appendChild(galleryWrapper);
     galleryWrapper.appendChild(arrowLeft);
+    galleryWrapper.appendChild(clickboxLeft);
+    galleryWrapper.appendChild(clickboxRight);
     galleryWrapper.appendChild(figureWrapper);
     gallery.forEach((image, index) => {
         image = createFigure(gallery[index].img, gallery[index].caption, gallery[index].idNumber);
