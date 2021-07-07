@@ -288,9 +288,10 @@ a:hover, a:visited, a:link, a:active
 }
 
 .clickbox{
-    height: 84vh;
+    height: 73vh;
     width: 50vw;
     z-index: 1000;
+    transform: translateY(10vh);
 }
 
 
@@ -370,7 +371,7 @@ a:hover, a:visited, a:link, a:active
 
     .menuWrapper{
         background-color: rgba(255, 255, 255, .65);
-        z-index: 40;
+        z-index: 1001;
     }
 
     /* about page*/
