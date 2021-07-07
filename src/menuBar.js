@@ -55,12 +55,32 @@ const pushMenu = () => {
         linkWrapper.appendChild(about);
 
         menuWrapper.appendChild(linkWrapper);
-        title.addEventListener('click', () => {
-            title.href = 'index.html'
 
-        })
+        linkWrapper.onanimationend = function(e){
+            if(e.animationName == 'fadeIn'){
+                title.href = 'index.html'
+            }
+
+            else{
+                title.href = '#';
+            }
+        }
+        
 
     }
+}
+
+const addEventListeners = () => {
+    const title = document.getElementById('title-anchor');
+    const menuWrapper = document.getElementById('menuWrapper');
+
+    title.addEventListener('mouseover', pushMenu);
+    title.addEventListener('touchstart', pushMenu);
+    menuWrapper.addEventListener('mouseleave', rmMenu);
+
+    
+
+
 }
 
 const rmMenu = () => {
@@ -70,6 +90,8 @@ const rmMenu = () => {
 
     })
     linkWrapper.classList.toggle('linkWrapperFadeOut')
+    const title = document.getElementById('title-anchor');
+    title.href = '';
 }
 
 
@@ -79,14 +101,15 @@ const pushMenuBar = () => {
     menuWrapper.id = "menuWrapper";
     const title = createTitle('ARIEL SADOK');
     
-    
 
     menuWrapper.appendChild(title);
     content.appendChild(menuWrapper);
     
-    title.addEventListener('mouseover', pushMenu)
+    /*title.addEventListener('mouseover', pushMenu)
     title.addEventListener('touchstart', pushMenu);
-    menuWrapper.addEventListener('mouseleave', rmMenu)
+    menuWrapper.addEventListener('mouseleave', rmMenu)*/
+    addEventListeners();
+
 }
 
 
